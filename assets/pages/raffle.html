@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles/style2.css">
+    <link rel="shortcut icon" href="../image/icon.png">
+    <title>Raffle</title>
+</head>
+<body>
+    <header>
+        <div class="header-home">
+        <nav> 
+            <a href="/index.html">Home</a>
+            <a href="../pages/aboutUs.html">AboutUs</a>
+            <a href="../pages/contact.html">Contact</a>
+            <a href="../pages/schedule.html">Schedule</a>
+            <a href="../pages/BenefitsAndTips.html">Benefits and Tips</a>
+            <a href="#">Raffle</a>
+        </nav>
+        </div>
+        <div class="logo-image">
+        <img src="/assets/image/logo.png" alt="logo">
+        </div>
+    </header>
+    <main>
+
+        <div class="title5">
+            <h1>Olympus Gym</h1>
+        </div>
+
+        <div class="sub-list">
+            <h4>PARTICIPATE IN OUR RAFFLE FOR 
+            A MONTH OF PERSONALIZED TRAINING</h4>
+            <p>Every month in this section you can participate in a raffle.</p>
+        </div>
+
+            <div class="content">
+               <div class="img-form">
+               <img src="../image/image-1.jpg" alt="runing">
+               <img src="../image/boy.png" alt="ruuning2">
+               </div>
+
+            <div class="table-form">
+                <form action= "./show_data.html" method="get">
+                
+                <label for="nombre">First Name:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="">
+
+                <label for="apellido">Last Name:</label>
+                <input type="text" name="apellido" id="apellido" placeholder="">
+                 
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="@mail.com">
+
+                <label for="gender">Choose Your Gender:</label>
+                <select name="gender" id="gender">
+                    <option value="">Choose Your Gender</option>
+                    <option value="Fem">Female</option>
+                    <option value="Mal">Male</option>
+                    <option value="other">Other</option>
+                </select>
+
+            <label for="country">Country:</label>
+                <select name="country" id="country">
+                    <option value="arg">Argentina</option>
+                    <option value="Chi">Chile</option>
+                    <option value="Col">Colombia</option>
+                    <option value="Bra">Brasil</option>
+                    <option value="Uru">Uruguay</option>
+            </select>
+
+            <div class="payment-methods">
+                <fieldset>
+                     <legend>Payment Options</legend>
+                <input type="radio" name="payment" id="cash" value="Cash">
+                <label for="cash">Cash</label>
+                <br>
+                <input type="radio" name="payment" id="CC" value="creditcard">
+                <label for="cash">Credit Card</label>
+                <br>
+                <input type="radio" name="payment" id="DC" value="debitcard">
+                <label for="cash">Debit Card</label>
+                </fieldset>
+            </div>
+
+            <div class="services">
+                <label for="comentarios">Services:</label>
+                <textarea class="form-control" rows="6" id="comentarios" name="comentarios" placeholder="comment..."></textarea>
+
+                <div class="conditions">
+                <input type="checkbox" name="condition" id="condition" required>
+                <label id="checkbox" >I accept terms and conditions</label>
+                </div>
+
+                <button type="submit" class="btn btn-default">Sent</button>
+            </div>
+           </form>
+           </div>
+        
+        </div>
+
+    </main>
+
+    <footer>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.294714485631!2d-74.01455459881318!3d40.71152824547938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a19881b83fb%3A0x979b0a4fe0492ce6!2sWorld%20Trade%20Center%2C%20Nueva%20York%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1678932571138!5m2!1ses!2sar" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        
+        <div class="copy">
+            &copy; <em id="Seabstian"></em>SebastianOvalle
+        </div>
+    </footer>
+</body>
+</html>
